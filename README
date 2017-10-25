@@ -1,10 +1,10 @@
 .. -*- mode: rst -*-
 ==========================================
- Keyboards for the __UNDEFINED__ language
+ Keyboards for FUPA
 ==========================================
 
 This directory contains source files and build instructions for developing
-keyboards for the __UNDEFINED__ language. The data and implementations
+keyboards for FUPA. The data and implementations
 are licenced under __LICENCE__, and the 
 licence is also detailed in the LICENCE file of this directory. The authors
 named in the AUTHORS file are available to grant other licencing choices.
@@ -14,8 +14,8 @@ file INSTALL.
 
 Documentation is scattered around on the Giellatekno and Divvun pages, e.g.:
 
-* http://giellatekno.uit.no/__UND__doc/index.html
-* http://divvun.no/doc/tools/docu-__UND__-manual.html
+* http://giellatekno.uit.no/urjdoc/index.html
+* http://divvun.no/doc/tools/docu-urj-manual.html
 
 The keyboards will be submitted to the CLDR - Unicode Common Locale Data
 Repository, where they will be available for OS developers to be included. Where
@@ -25,14 +25,14 @@ OS's regular installation procedures.
 Requirements
 ------------
 
-In order to compile and use __UNDEFINED__ keyboards you need:
+In order to compile and use FUPA keyboards you need:
 
 * the relevant operating system (a recent version)
 
 Downloading
 -----------
 
-The __UNDEFINED__ keyboard sources can be acquired using the `Giella SVN
+The FUPA keyboard sources can be acquired using the `Giella SVN
 repository <http://divvun.no/doc/infra/anonymous-svn.html>`_, from the
 language specific directory for keyboards, after the core has been downloaded
 and initial setup has been performed.
