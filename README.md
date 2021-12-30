@@ -2,7 +2,7 @@
 
 This directory contains source files and build instructions for
 developing keyboards for FUPA. The data and implementations are licenced
-under \_\_LICENCE\_\_, and the licence is also detailed in the LICENCE
+under __LICENSE__, and the licence is also detailed in the LICENCE
 file of this directory. The authors named in the AUTHORS file are
 available to grant other licencing choices.
 
