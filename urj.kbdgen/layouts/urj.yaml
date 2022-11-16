@@ -240,8 +240,6 @@ transforms:
     U: Ú
     v: ǘ
     V: Ǘ
-    v: v\u{301}
-    V: V\u{301}
     w: ẃ
     W: Ẃ
     'y': ý
