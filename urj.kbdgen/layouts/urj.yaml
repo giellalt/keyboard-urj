@@ -110,6 +110,18 @@ windows:
     caps: ['¨', '´']
     caps+shift: ['^', '`']
     alt: ['~']
+longpress:
+  Á: Q
+  A: Æ Ä Å
+  Č: X
+  O: Ø Ö
+  á: q
+  a: æ ä å
+  č: x
+  o: ø ö
+keyNames:
+  space: gaska
+  return: linnjámolsun
 transforms:
   '`':
     ' ': '`'
@@ -1437,16 +1449,3 @@ transforms:
     w: w
     'y': y
     'Y': y
-longpress:
-  Á: Q
-  A: Æ Ä Å
-  Č: X
-  O: Ø Ö
-  á: q
-  a: æ ä å
-  č: x
-  o: ø ö
-keyNames:
-  space: gaska
-  return: linnjámolsun
-
