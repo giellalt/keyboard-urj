@@ -40,11 +40,27 @@ macOS:
           \u{11} \u{17} \u{5} \u{12} \u{14} \u{19} \u{15} \u{9} \u{F} \u{10} \u{1B} \u{1D}
           \u{1}  \u{13} \u{4} \u{6}  \u{7}  \u{8}  \u{A}  \u{B} \u{C} ;      '      \u{1C}
         0 \u{1A} \u{18} \u{3} \u{16} \u{2}  \u{E}  \u{D}  ,     .     /
+      cmd: |
+        ' 1 2 3 4 5 6 7 8 9 0 + ´
+          q w e r t y u i o p å ¨
+          a s d f g h j k l ø æ @
+        < z x c v b n m , . -
+      cmd+shift: |
+        § ! " # $ % & / ( ) = ? `
+          Q W E R T Y U I O P Å ^
+          A S D F G H J K L Ø Æ *
+        > Z X C V B N M ; : _
       cmd+alt: |
         ≤ © ™ £ €     §     \u{0} | [ ] ≈ ± `
           • , é \u{0} ŧ     µ     ü ı œ þ ˙ ˜
           ¯ ß ð ƒ     \u{0} ħ     ˝ ª ł ö ä '
         € ÷ đ ¸ ‹     ›     ‘     ’ ‚ … –
+
+      cmd+alt+shift: |
+        Ÿ ¡ ®     ¥ ¢     ‰ ¶ \ { } ≠ ¿ \u{0}
+          ° ˝     É \u{0} ‡ ˜ Ü ˆ Œ ∏ ˚ ^
+          ◊ ∑     ∆ ∫     ¯ ˘ ¬ º ﬂ Ö Ä \u{0}
+        ≥ ⁄ \u{0} Ç «     » “ ” „ · —
       alt+caps: |
         ≤ © ™ £ € ‸ § |       [ ] ˝ ± \u{301}
           • , É ˇ Þ ˘ ˀ       ʼ Œ ˙ ˚ \u{308}
@@ -59,7 +75,8 @@ macOS:
   deadKeys:
     default: ['¨', '´']
     shift: ['`', 'ˆ']
-    alt: [',', '~', '.', '¯', '¸', 'ʼ', 'ˇ', 'ˍ', '˘', '˙', '˚', '˛', '˝', '‸', '\u{32E}']
+    alt: [',', '~', '.', '¯', '¸', 'ʼ', 'ˇ', 'ˍ', '˘', '˙', '˚', '˛', '˝', '‸', '\u{32E}', '‹', '›']
+    alt+shift: ['ʔ', '№']
 #    default: ['¨', '´']
 #    shift: ['`', 'ˆ']
 #    caps: ['¨', '´']
@@ -997,10 +1014,14 @@ transforms:
     D: Ḓ
     e: ḙ
     E: Ḙ
+    i: i̭
+    I: I̭
     l: ḽ
     L: Ḽ
     'n': ṋ
     'N': Ṋ
+    o: o̭
+    O: O̭‸
     t: ṱ
     T: Ṱ
     u: ṷ
@@ -1162,8 +1183,8 @@ transforms:
     S: Ș
     t: ț
     T: Ț
-  ˂:      # todo: add to keyboard (if not) and to deadkey
-    ' ': ˂
+  ‹:      # todo: add to keyboard (if not) and to deadkey '‹' '›'
+    ' ': ‹
     a: a͔
     ᵃ: 'ᵃ\u{354}'
     ᴀ: ᴀ͔
@@ -1261,8 +1282,8 @@ transforms:
     ᴢ: ᴢ͔
     ø: ø͔
     æ: æ͔
-  ˃: # perhaps use < and > as transform key (check)
-    ' ': ˃
+  ›: 
+    ' ': ›
     a: a͕
     ᵃ: ᵃ͕
     ᴀ: ᴀ͕
@@ -1361,45 +1382,45 @@ transforms:
     ᴢ: ᴢ͕
     ø: ø͕
     æ: æ͕
-#  №:   # Error: The escape transform ` ` not found for dead key `№`
-#       '2': ƨ
-#       '3': ɛ
-#    '5': ƽ
-#    '6': ƅ
-#    '7': ⁊
-#    ' ': №
-#    a: ə
-#    A: Ə
-#    c: ɔ
-#    C: Ɔ
-#    e: ǝ
-#    E: Ǝ
-#    g: ɣ
-#    G: Ɣ
-#    h: ƕ
-#    H: Ƕ
-#    j: ƞ
-#    J: Ƞ
-#    k: ĸ
-#    K: K’
-#    m: ɯ
-#    M: Ɯ
-#    'n': ŋ
-#    'N': Ŋ
-#    q: ƣ
-#    Q: Ƣ
-#    r: ʀ
-#    R: Ʀ
-#    s: ſ
-#    u: ʊ
-#    U: Ʊ
-#    v: ʌ
-#    w: ƿ
-#    W: Ƿ
-#    'y': ȝ
-#    'Y': Ȝ
-#    z: ʒ
-#    Z: Ʒ
+  №:   # Error: The escape transform ` ` not found for dead key `№`
+    ' ': №
+    '2': ƨ
+    '3': ɛ
+    '5': ƽ
+    '6': ƅ
+    '7': ⁊
+    a: ə
+    A: Ə
+    c: ɔ
+    C: Ɔ
+    e: ǝ
+    E: Ǝ
+    g: ɣ
+    G: Ɣ
+    h: ƕ
+    H: Ƕ
+    j: ƞ
+    J: Ƞ
+    k: ĸ
+    K: K’
+    m: ɯ
+    M: Ɯ
+    'n': ŋ
+    'N': Ŋ
+    q: ƣ
+    Q: Ƣ
+    r: ʀ
+    R: Ʀ
+    s: ſ
+    u: ʊ
+    U: Ʊ
+    v: ʌ
+    w: ƿ
+    W: Ƿ
+    'y': ȝ
+    'Y': Ȝ
+    z: ʒ
+    Z: Ʒ
   ʔ:
     ' ': ʔ
     b: ɓ
