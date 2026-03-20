@@ -1,13 +1,15 @@
-# Keyboard layout(s) for Uralic languages
+---
+layout: default
+---
 
-**Legend:**
+# Keyboard layouts for FUPA, Uralic phonetic alphabet
 
-| Mode       | Default | AltGr/Option | Caps Lock (Mode Switch) | Caps Lock + AltGr/Option |
-| ----------:|:-------:|:------------:|:-----------------------:|:------------------------:|
-|**Standard**| black   | red          | blue                    | purple                   |
-|**Deadkey** | green   | orange       | pink                    | green                    |
+> Tip: These keyboards are interactive — click or tap keys to explore different layers (Shift, Alt, etc.)
 
+## Mac
 
-# Keyboard Layouts
+<iframe src="https://keyboard.giellalt.org/embed?kbd=urj&layout=urj&platform=macOS&variant=primary"></iframe>
 
-No keyboard layout defined yet!
+## Windows
+
+<iframe src="https://keyboard.giellalt.org/embed?kbd=urj&layout=urj&platform=windows&variant=primary"></iframe>
